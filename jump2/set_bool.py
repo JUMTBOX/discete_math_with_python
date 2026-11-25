@@ -33,3 +33,24 @@ remove(x) ==> set에 x가 존재하지 않을시 에러
 discard(x) ==> set에 x가 존재하지 않아도 에러가 발생하지 않음
 clear() ==> 모든 값 제거
 """
+
+"""
+Bool 자료형
+
+JS랑 다르게 리스트,튜플, 딕셔너리가 비어있다면 Falsy 취급 된다고 함
+"""
+
+# bool 함수
+print(bool('python'))   # True
+print(bool(''))         # False
+
+# and, or, not 논리 연산
+print(True and True)    # True
+print(True or False)    # True
+print(not False)        # True
+
+print(False and True)   # False
+print(False or False)   # False
+print(not True)         # False
+
+# 나머지 Truthy / Falsy 값들도 동일하게 동작
