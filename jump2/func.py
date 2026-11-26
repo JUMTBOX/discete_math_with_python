@@ -48,3 +48,10 @@ def add_and_mul(a,b):
 (addResult, mulResult) = add_and_mul(3,4)
 
 print(f"add={addResult}, mul={mulResult}")
+
+"""
+lambda 예약어
+함수를 생성할 때 사용하는 예약어로, def와 동일한 역할을 한다.
+"""
+addLambda = lambda a,b : a + b
+print(addLambda(1,1))
